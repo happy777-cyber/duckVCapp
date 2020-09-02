@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_front"
+        android:layout_width="106dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="56dp"
+        android:text="@string/front_button"
+        app:layout_constraintBottom_toTopOf="@+id/button_back"
+        app:layout_constraintEnd_toEndOf="@+id/button_back"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_back" />
+
+    <Button
+        android:id="@+id/button_up"
+        android:layout_width="110dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/up_button"
+        app:layout_constraintBottom_toTopOf="@+id/button_front"
+        app:layout_constraintEnd_toEndOf="@+id/button_front"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_front" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="111dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/back_button"
+        app:layout_constraintBottom_toTopOf="@+id/button_down"
+        app:layout_constraintEnd_toEndOf="@+id/button_down"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_down" />
+
+    <Button
+        android:id="@+id/button_left"
+        android:layout_width="91dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/left_button"
+        app:layout_constraintBottom_toTopOf="@+id/button_back"
+        app:layout_constraintEnd_toStartOf="@+id/button_back" />
+
+    <Button
+        android:id="@+id/button_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/right_button"
+        app:layout_constraintBottom_toTopOf="@+id/button_back"
+        app:layout_constraintStart_toEndOf="@+id/button_back" />
+
+    <Button
+        android:id="@+id/button_down"
+        android:layout_width="109dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/down_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/how_to_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/how_to" />
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
+        android:layout_marginStart="4dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2">
+
+        <TextView
+            android:id="@+id/license_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/voice_license" />
+    </ScrollView>
+
+<!--    <Button-->
+<!--        android:id="@+id/button_non"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="40dp"-->
+<!--        android:text="@string/non_button"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/button_alolo"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/button_alolo" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_alolo"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="48dp"-->
+<!--        android:text="@string/alolo_button"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/button_aporo"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/button_aporo" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_aporo"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="24dp"-->
+<!--        android:text="@string/aporo_button"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/button_mask"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/button_mask" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_mask"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="4dp"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:text="@string/mask_button"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <Button
+        android:id="@+id/button_yes"
+        android:layout_width="88dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="108dp"
+        android:text="@string/yes_button"
+        app:layout_constraintBottom_toTopOf="@+id/button_left"
+        app:layout_constraintStart_toStartOf="@+id/button_left" />
+
+    <Button
+        android:id="@+id/button_no"
+        android:layout_width="86dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="104dp"
+        android:text="@string/no_button"
+        app:layout_constraintBottom_toTopOf="@+id/button_right"
+        app:layout_constraintStart_toStartOf="@+id/button_right" />
+
+    <Button
+        android:id="@+id/button_alpha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alpha_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_yes" />
+
+    <Button
+        android:id="@+id/button_beta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/beta_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_alpha" />
+
+    <Button
+        android:id="@+id/button_charry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/charry_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_beta" />
+
+    <Button
+        android:id="@+id/button_delta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/delta_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_charry" />
+
+    <Button
+        android:id="@+id/button_echo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/echo_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_delta" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

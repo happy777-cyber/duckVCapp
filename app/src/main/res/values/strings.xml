@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">duckVCapp</string>
+    <string name="up_button">上</string>
+    <string name="down_button">下</string>
+    <string name="right_button">右</string>
+    <string name="left_button">左</string>
+    <string name="front_button">前</string>
+    <string name="back_button">後</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="non_button">のんたん</string>
+    <string name="mask_button">マスク</string>
+    <string name="aporo_button">アポロ</string>
+    <string name="alolo_button">あろろ</string>
+    <string name="alpha_button">A</string>
+    <string name="beta_button">B</string>
+    <string name="charry_button">C</string>
+    <string name="delta_button">D</string>
+    <string name="echo_button">E</string>
+    <string name="how_to">使い方説明\n
+        下にあるボタンを押すとそのボタンに書かれた言葉を機械音声が話してくれます。
+        自分の声を出さずに情報を伝えることが出来るので、声を出す事が出来ない環境での使用に適しています。
+        また、自分の声に自信がない人にもおすすめします。</string>
+    <string name="voice_license">使用している機械音声について\n
+        「WEB便利ノート(https://note.cman.jp/other/voice/)」様から、商用仕様フリーの音声として使用させて頂いております。\n
+        音声データは「HTS voice」「MMDAgentのMei」を使用しており、以下ライセンスに基づいて使用しております。\n
+        HTS Voice "Mei(Normal)" Copyright (c) 2009-2013 Nagoya Institute of Technology</string>
+</resources>
